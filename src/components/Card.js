@@ -3,7 +3,7 @@ import './Card.css';
 
 const Card = ({card, handleChoice}) => {
 
-    const handleClick = () => handleChoice(card)
+  const handleClick = () => handleChoice(card)
 
   return (
     <div className='card'>
